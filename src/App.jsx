@@ -29,7 +29,7 @@ function AnimatedRoutes() {
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="app-container">
         <GlobalStyles />
         <Toaster position="top-center" richColors theme="dark" />
