@@ -42,3 +42,7 @@ npm run dev
 - Sonner (Toast Notifications)
 - Axios (API Client)
 - Lucide React (Icons)
+
+## Known Issues
+- **YouTube Trailers**: On some mobile networks or devices, YouTube trailers embedded in the Anime Details page may display a "Sign in to confirm you are not a bot" error. This is a restriction from YouTube's automated systems and cannot be bypassed by the application.
+
