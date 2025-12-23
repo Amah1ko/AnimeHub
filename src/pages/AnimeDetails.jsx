@@ -163,8 +163,10 @@ const AnimeDetails = () => {
                             <div style={{ marginBottom: '2rem' }}>
                                 <h3>Trailer</h3>
                                 <iframe
-                                    src={anime.trailer.embed_url}
-                                    title="Trailer"
+                                    src={anime.trailer.embed_url.replace('youtube.com', 'youtube-nocookie.com')}
+                                    title="YouTube video player"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    referrerPolicy="strict-origin-when-cross-origin"
                                     style={{ width: '100%', maxWidth: '100%', height: '315px', border: 'none', borderRadius: 'var(--radius-md)' }}
                                     allowFullScreen
                                 />
